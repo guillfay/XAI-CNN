@@ -126,7 +126,7 @@ show_grid(sample_x[:16], df, 4, 4)
 ```
 
 
-![](59d357973ebb4602b1b04b20c3eb9304/7ec703327d0c08dfcc239d24f69387b7d79114b0.png)
+![](images/7ec703327d0c08dfcc239d24f69387b7d79114b0.png)
 
 
 To optimize memory usage and training speed, the dataset is split into
@@ -445,7 +445,7 @@ plt.show()
     Train Loss: 0.2089, Accuracy: 0.9173
     Val   Loss: 0.2167, Accuracy: 0.9156
 
-![](59d357973ebb4602b1b04b20c3eb9304/fac6392dd4c52cb0d31d1b20e7e0f5d725548ee5.png)
+![](images/fac6392dd4c52cb0d31d1b20e7e0f5d725548ee5.png)
 
 
 Results seem satisfying bit it\'s worth trying to perform more epochs
@@ -564,7 +564,7 @@ plt.legend()
 plt.show()
 ```
 
-![](59d357973ebb4602b1b04b20c3eb9304/c26d29876c05e80c7eea32fc809fe11ba44d6efc.png)
+![](images/c26d29876c05e80c7eea32fc809fe11ba44d6efc.png)
 
 
 
@@ -641,7 +641,7 @@ evaluate_and_plot_confusion_matrix(model, test_ds)
 ```
 
 
-![](59d357973ebb4602b1b04b20c3eb9304/327a82e9868829c95f90b2707367d18328721baa.png)
+![](images/327a82e9868829c95f90b2707367d18328721baa.png)
 
 
     Classification Report :
@@ -764,7 +764,7 @@ plt.show()
 
 
 
-![](59d357973ebb4602b1b04b20c3eb9304/85a2f8f54d033ffc8f2eda5e3ecaf9a1795c2301.png)
+![](images/85a2f8f54d033ffc8f2eda5e3ecaf9a1795c2301.png)
 
 
 ## Visualizing Grad-CAM Results
@@ -858,7 +858,7 @@ plt.tight_layout(rect=[0, 0, 1, 0.98])  # Ajuster la mise en page pour le titre 
 plt.show()
 ```
 
-![](59d357973ebb4602b1b04b20c3eb9304/202dd5367d64d4914150c578ff1225788a195d2d.png)
+![](images/202dd5367d64d4914150c578ff1225788a195d2d.png)
 
 
 Results are less tangible with saliency maps and highlighted areas
@@ -962,7 +962,7 @@ plt.show()
 
 
 
-![](59d357973ebb4602b1b04b20c3eb9304/43147795ca717d159cc087afb76e30944140604a.png)
+![](images/43147795ca717d159cc087afb76e30944140604a.png)
 
 
 
@@ -1067,7 +1067,7 @@ plt.tight_layout(rect=[0, 0, 1, 0.98])  # Adjust layout to fit title and legend
 plt.show()
 ```
 
-![](59d357973ebb4602b1b04b20c3eb9304/4d501462741e6c62b51488514e861a1d572fbc4b.png)
+![](images/4d501462741e6c62b51488514e861a1d572fbc4b.png)
 
 Red/yellow regions indicate areas where occlusion significantly reduces
 the model\'s confidence, meaning these regions are important for the
@@ -1165,7 +1165,7 @@ plt.tight_layout(rect=[0, 0, 1, 0.98])  # Adjust layout to fit title and legend
 plt.show()
 ```
 
-![](59d357973ebb4602b1b04b20c3eb9304/ec54d440958c3dae9f002c3dc632e3ec87d511ff.png)
+![](images/ec54d440958c3dae9f002c3dc632e3ec87d511ff.png)
 
 For Label: 1 images, the heatmaps often emphasize regions within the red
 bounding box, suggesting that the model is effectively identifying tumor
